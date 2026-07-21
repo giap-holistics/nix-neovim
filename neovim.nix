@@ -74,6 +74,9 @@
     pkgs.emmet-ls
     pkgs.clang-tools
 
+    # For sorbet
+    pkgs.watchman
+
     # For launching pyright inside a uv-managed project environment
     pkgs.uv
   ] ++ (if pkgs.stdenv.hostPlatform.isLinux then [

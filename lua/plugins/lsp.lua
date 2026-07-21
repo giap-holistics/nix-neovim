@@ -12,6 +12,7 @@ local servers = {
   'svelte',
   'gopls',
   'vue_ls',
+  'sorbet',
 }
 
 vim.lsp.config('pyright', {
