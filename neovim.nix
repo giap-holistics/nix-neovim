@@ -76,6 +76,9 @@
 
     # For launching pyright inside a uv-managed project environment
     pkgs.uv
+
+    # For sorbet
+    pkgs.watchman
   ] ++ (if pkgs.stdenv.isLinux then [
     pkgs.xclip
     pkgs.wl-clipboard
