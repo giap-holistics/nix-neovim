@@ -13,6 +13,7 @@ local servers = {
   'gopls',
   'vue_ls',
   'sorbet',
+  'tailwindcss',
 }
 
 vim.lsp.config('pyright', {
